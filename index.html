@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachupally Tea Stall</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffaf0;
+            color: #333;
+        }
+        header {
+            background-color: #e76f51;
+            color: white;
+            text-align: center;
+            padding: 25px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffddc1;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        section h2 {
+            color: #e76f51;
+            margin-bottom: 20px;
+        }
+        .menu-item {
+            display: inline-block;
+            background-color: #ffe5d4;
+            margin: 10px;
+            padding: 20px;
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .about img {
+            width: 300px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .contact iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 300px;
+            border: none;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #e76f51;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #f4a261;
+        }
+        footer {
+            background-color: #e76f51;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bachupally Tea Stall</h1>
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1566740933436-7d0b7f1a0f61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGVhfGVufDB8fDB8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=400" alt="Masala Tea">
+        <strong>Masala Tea</strong><br>₹15
+    </div>
+    <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1612197514626-bf1f1be3b9a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRlYXxlbnwwfHwwfHw%3D&ixlib=rb-4.0.3&q=80&w=400" alt="Ginger Tea">
+        <strong>Ginger Tea</strong><br>₹15
+    </div>
+    <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlfGVufDB8fDB8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=400" alt="Coffee">
+        <strong>Coffee</strong><br>₹20
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Welcome to Bachupally Tea Stall! Serving fresh and hot tea with a smile in Hyderabad. Quality, taste, and happiness in every cup.</p>
+    <img src="https://images.unsplash.com/photo-1606312610456-fad9c58e4013?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Tea Stall">
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact & Location</h2>
+    <p>📍 Near Bachupally, Hyderabad</p>
+    <p>📞 Call: +91 12345 67890</p>
+    <p>WhatsApp: <a href="https://wa.me/911234567890" target="_blank">Chat with us</a></p>
+
+    <!-- Google Maps Embed -->
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.204495395916!2d78.39584007477788!3d17.43909788814207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93f8a2f8e4b3%3A0x9e1e06cb1c2f5c3a!2sBachupally%2C%20Hyderabad!5e0!3m2!1sen!2sin!4v1706768648945!5m2!1sen!2sin" 
+        allowfullscreen="" loading="lazy"></iframe>
+
+    <div class="social-icons">
+        <a href="#" target="_blank">🌐</a>
+        <a href="#" target="_blank">📸</a>
+        <a href="#" target="_blank">📘</a>
+    </div>
+</section>
+
+<footer>
+    &copy; 2026 Bachupally Tea Stall. All rights reserved.
+</footer>
+
+</body>
+</html>
